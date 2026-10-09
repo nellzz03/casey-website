@@ -13,7 +13,7 @@ function Community() {
     try {
 
       const response = await fetch(
-        "http://localhost:5000/api/community",
+        "https://casey-website-api.onrender.com/api/community",
         {
           method: "POST",
 
